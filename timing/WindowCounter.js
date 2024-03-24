@@ -11,7 +11,7 @@ module.exports = (() => {
 			this._duration = duration;
 
 			this._windows = [ new Window(getTime(), this._duration) ];
-			this._maximum = Math.max(windows, 2);
+			this._maximum = Math.max(windows, 4);
 
 			this._previousCount = 0;
 		}
